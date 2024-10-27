@@ -7,100 +7,26 @@
 </div>
 
 ## About Me 🎯
-import { Code } from 'lucide-react';
-
-const AboutMeCard = () => {
-  return (
-    <div className="w-full max-w-2xl mx-auto bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-xl p-6 text-white">
-      <div className="flex items-center mb-6">
-        <Code className="w-6 h-6 mr-2 text-blue-400" />
-        <h2 className="text-2xl font-bold text-blue-400">About Me</h2>
-      </div>
-
-      <div className="space-y-4">
-        <div className="flex items-center">
-          <span className="text-pink-400 font-mono">role:</span>
-          <span className="ml-2 text-green-400">"Full Stack Developer"</span>
-        </div>
-
-        <div>
-          <span className="text-pink-400 font-mono">code:</span>
-          <div className="ml-4 flex flex-wrap gap-2 mt-2">
-            {["JavaScript", "PHP", "Python", "SQL", "HTML", "CSS"].map((tech) => (
-              <span key={tech} className="px-3 py-1 bg-blue-500/20 rounded-full text-blue-300 text-sm">
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        <div>
-          <span className="text-pink-400 font-mono">technologies:</span>
-          <div className="ml-4 mt-2 space-y-3">
-            <div>
-              <span className="text-yellow-400 font-mono">frontEnd:</span>
-              <div className="ml-4 mt-1">
-                <div>
-                  <span className="text-blue-400 font-mono">js:</span>
-                  <span className="ml-2 text-green-400">"React.js"</span>
-                </div>
-                <div>
-                  <span className="text-blue-400 font-mono">css:</span>
-                  <span className="ml-2 text-green-400">"Tailwind CSS, Bootstrap"</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <span className="text-yellow-400 font-mono">backEnd:</span>
-              <div className="ml-4">
-                <div>
-                  <span className="text-blue-400 font-mono">js:</span>
-                  <span className="ml-2 text-green-400">"Node.js, Express.js"</span>
-                </div>
-                <div>
-                  <span className="text-blue-400 font-mono">php:</span>
-                  <span className="ml-2 text-green-400">"Laravel"</span>
-                </div>
-              </div>
-            </div>
-            <div>
-              <span className="text-yellow-400 font-mono">databases:</span>
-              <div className="ml-4 flex flex-wrap gap-2 mt-1">
-                {["MySQL", "MongoDB"].map((db) => (
-                  <span key={db} className="px-3 py-1 bg-purple-500/20 rounded-full text-purple-300 text-sm">
-                    {db}
-                  </span>
-                ))}
-              </div>
-            </div>
-            <div>
-              <span className="text-yellow-400 font-mono">tools:</span>
-              <div className="ml-4 flex flex-wrap gap-2 mt-1">
-                {["Git", "GitHub", "VS Code", "Postman"].map((tool) => (
-                  <span key={tool} className="px-3 py-1 bg-gray-500/20 rounded-full text-gray-300 text-sm">
-                    {tool}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex items-center">
-          <span className="text-pink-400 font-mono">currentFocus:</span>
-          <span className="ml-2 text-green-400">"Building scalable web applications"</span>
-        </div>
-
-        <div className="flex items-center">
-          <span className="text-pink-400 font-mono">funFact:</span>
-          <span className="ml-2 text-green-400">"I code better with coffee ☕"</span>
-        </div>
-      </div>
-    </div>
-  );
+```javascript
+const jerico = {
+    role: "Full Stack Developer",
+    code: ["JavaScript", "PHP", "Python", "SQL", "HTML", "CSS"],
+    technologies: {
+        frontEnd: {
+            js: ["React.js"],
+            css: ["Tailwind CSS", "Bootstrap"]
+        },
+        backEnd: {
+            js: ["Node.js", "Express.js"],
+            php: ["Laravel"]
+        },
+        databases: ["MySQL", "MongoDB"],
+        tools: ["Git", "GitHub", "VS Code", "Postman"]
+    },
+    currentFocus: "Building scalable web applications",
+    funFact: "I code better with coffee ☕"
 };
-
-export default AboutMeCard;
+```
 
 ## Tech Stack 💻
 
