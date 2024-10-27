@@ -10,53 +10,48 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" height="25" /> About Me 
 
 <div align="left">
-<details open>
-<summary><b>See my developer card</b></summary>
-<br>
 
 ```yaml
-role: Full Stack Developer 👨‍💻
+🧑‍💻 role: "Full Stack Developer"
 
-code: 
-  languages: |
-    🟡 JavaScript
-    🔵 PHP
-    🐍 Python
-    🎲 SQL
-    🌐 HTML
-    🎨 CSS
+🔧 code: [
+  "JavaScript",  # Building interactive experiences
+  "PHP",         # Crafting server-side solutions
+  "Python",      # Data processing & automation
+  "SQL",         # Database management
+  "HTML",        # Structuring content
+  "CSS"          # Styling & design
+]
 
-technologies:
-  frontEnd:
-    js: |
-      ⚛️ React.js
-    css: |
-      🎭 Tailwind CSS
-      🅱️ Bootstrap
-      
-  backEnd:
-    js: |
-      📦 Node.js
-      🚂 Express.js
-    php: |
-      🔥 Laravel
-      
-  databases: |
-    🐬 MySQL
-    🍃 MongoDB
-    
-  tools: |
-    📚 Git
-    🐱 GitHub
-    💻 VS Code
-    📬 Postman
+⚙️ technologies: {
+  frontEnd: {
+    ⚛️ js: [ "React.js" ],                    # Component-based UI
+    🎨 css: [ "Tailwind CSS", "Bootstrap" ]    # Modern styling
+  },
+  
+  backEnd: {
+    📦 js: [ "Node.js", "Express.js" ],       # Server-side JavaScript
+    🔥 php: [ "Laravel" ]                      # PHP framework
+  },
+  
+  💾 databases: [
+    "MySQL",      # Relational database
+    "MongoDB"     # NoSQL database
+  ],
+  
+  🛠️ tools: [
+    "Git",        # Version control
+    "GitHub",     # Code collaboration
+    "VS Code",    # IDE
+    "Postman"     # API testing
+  ]
+}
 
-currentFocus: "Building scalable web applications 🚀"
+🎯 currentFocus: "Building scalable web applications"
 
-funFact: "I code better with coffee ☕"
+⭐ funFact: "I code better with coffee ☕"
 ```
 
-</details>
 </div>
 
 ## Tech Stack 💻
