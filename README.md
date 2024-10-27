@@ -1,8 +1,8 @@
 <div align="center">
   
-  # Hello World! I'm Jerico Daag 👋
+# Hello World! I'm Jerico Daag 👋
   
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%F0%9F%92%BB;Software+Engineer+%F0%9F%9A%80;Code+Enthusiast+%F0%9F%92%A1;Always+Learning%2C+Always+Growing+%F0%9F%8C%B1)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%F0%9F%92%BB;Software+Engineer+%F0%9F%9A%80;Code+Enthusiast+%F0%9F%92%A1;Always+Learning%2C+Always+Growing+%F0%9F%8C%B1)](https://git.io/typing-svg)
 
 </div>
 
@@ -83,6 +83,3 @@ const jerico = {
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=jericodaag&color=blue&style=for-the-badge" alt="Profile Views" />
 </div>
-
-<!-- Snake animation -->
-![Snake animation](https://github.com/jericodaag/jericodaag/blob/output/github-contribution-grid-snake.svg)
