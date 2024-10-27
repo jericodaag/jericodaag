@@ -7,26 +7,69 @@
 </div>
 
 ## About Me 🎯
-```javascript
-const jerico = {
-    role: "Full Stack Developer",
-    code: ["JavaScript", "PHP", "Python", "SQL", "HTML", "CSS"],
-    technologies: {
-        frontEnd: {
-            js: ["React.js"],
-            css: ["Tailwind CSS", "Bootstrap"]
-        },
-        backEnd: {
-            js: ["Node.js", "Express.js"],
-            php: ["Laravel"]
-        },
-        databases: ["MySQL", "MongoDB"],
-        tools: ["Git", "GitHub", "VS Code", "Postman"]
-    },
-    currentFocus: "Building scalable web applications",
-    funFact: "I code better with coffee ☕"
-};
-```
+<div style="background: linear-gradient(to bottom right, #1a1a1a, #2d2d2d); border-radius: 8px; padding: 24px; color: white; max-width: 800px; margin: 0 auto;">
+  <h2 style="color: #60A5FA; font-size: 24px; font-weight: bold; margin-bottom: 24px;">
+    <span style="display: inline-block; vertical-align: middle; margin-right: 8px;">👨‍💻</span>
+    About Me
+  </h2>
+  
+  <div style="margin-left: 16px;">
+    <p style="margin: 12px 0;">
+      <span style="color: #F687B3;">role:</span>
+      <span style="color: #4ADE80; margin-left: 8px;">"Full Stack Developer"</span>
+    </p>
+    
+    <p style="margin: 12px 0;">
+      <span style="color: #F687B3;">code:</span>
+      <span style="color: #4ADE80; margin-left: 8px;">["JavaScript", "PHP", "Python", "SQL", "HTML", "CSS"]</span>
+    </p>
+    
+    <div style="margin: 12px 0;">
+      <span style="color: #F687B3;">technologies:</span>
+      <div style="margin-left: 16px;">
+        <p style="margin: 8px 0;">
+          <span style="color: #FCD34D;">frontEnd:</span>
+          <div style="margin-left: 16px;">
+            <span style="color: #60A5FA;">js:</span>
+            <span style="color: #4ADE80;">"React.js"</span><br>
+            <span style="color: #60A5FA;">css:</span>
+            <span style="color: #4ADE80;">["Tailwind CSS", "Bootstrap"]</span>
+          </div>
+        </p>
+        
+        <p style="margin: 8px 0;">
+          <span style="color: #FCD34D;">backEnd:</span>
+          <div style="margin-left: 16px;">
+            <span style="color: #60A5FA;">js:</span>
+            <span style="color: #4ADE80;">["Node.js", "Express.js"]</span><br>
+            <span style="color: #60A5FA;">php:</span>
+            <span style="color: #4ADE80;">"Laravel"</span>
+          </div>
+        </p>
+        
+        <p style="margin: 8px 0;">
+          <span style="color: #FCD34D;">databases:</span>
+          <span style="color: #4ADE80; margin-left: 8px;">["MySQL", "MongoDB"]</span>
+        </p>
+        
+        <p style="margin: 8px 0;">
+          <span style="color: #FCD34D;">tools:</span>
+          <span style="color: #4ADE80; margin-left: 8px;">["Git", "GitHub", "VS Code", "Postman"]</span>
+        </p>
+      </div>
+    </div>
+    
+    <p style="margin: 12px 0;">
+      <span style="color: #F687B3;">currentFocus:</span>
+      <span style="color: #4ADE80; margin-left: 8px;">"Building scalable web applications"</span>
+    </p>
+    
+    <p style="margin: 12px 0;">
+      <span style="color: #F687B3;">funFact:</span>
+      <span style="color: #4ADE80; margin-left: 8px;">"I code better with coffee ☕"</span>
+    </p>
+  </div>
+</div>
 
 ## Tech Stack 💻
 
