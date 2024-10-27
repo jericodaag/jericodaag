@@ -6,7 +6,6 @@
 
 </div>
 
-## About Me 🎯
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" height="25" /> About Me 
 
 <div align="left">
