@@ -1,120 +1,88 @@
-import React from 'react';
-import { Code, Coffee, Database, GitBranch, Globe, Server, Tools } from 'lucide-react';
+<div align="center">
+  
+  # Hello World! I'm Jerico Daag 👋
+  
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer+%F0%9F%92%BB;Software+Engineer+%F0%9F%9A%80;Code+Enthusiast+%F0%9F%92%A1;Always+Learning%2C+Always+Growing+%F0%9F%8C%B1)](https://git.io/typing-svg)
 
-const DeveloperProfile = () => {
-  const jerico = {
+</div>
+
+## About Me 🎯
+```javascript
+const jerico = {
     role: "Full Stack Developer",
     code: ["JavaScript", "PHP", "Python", "SQL", "HTML", "CSS"],
     technologies: {
-      frontEnd: {
-        js: ["React.js"],
-        css: ["Tailwind CSS", "Bootstrap"]
-      },
-      backEnd: {
-        js: ["Node.js", "Express.js"],
-        php: ["Laravel"]
-      },
-      databases: ["MySQL", "MongoDB"],
-      tools: ["Git", "GitHub", "VS Code", "Postman"]
+        frontEnd: {
+            js: ["React.js"],
+            css: ["Tailwind CSS", "Bootstrap"]
+        },
+        backEnd: {
+            js: ["Node.js", "Express.js"],
+            php: ["Laravel"]
+        },
+        databases: ["MySQL", "MongoDB"],
+        tools: ["Git", "GitHub", "VS Code", "Postman"]
     },
     currentFocus: "Building scalable web applications",
     funFact: "I code better with coffee ☕"
-  };
-
-  return (
-    <div className="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-lg">
-      <div className="space-y-6">
-        {/* Header */}
-        <div className="text-center border-b pb-6">
-          <h1 className="text-3xl font-bold text-gray-800">{jerico.role}</h1>
-          <p className="mt-2 text-gray-600">{jerico.currentFocus}</p>
-        </div>
-
-        {/* Programming Languages */}
-        <div className="space-y-2">
-          <div className="flex items-center gap-2 text-gray-700">
-            <Code className="w-5 h-5" />
-            <h2 className="text-lg font-semibold">Programming Languages</h2>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {jerico.code.map((lang) => (
-              <span key={lang} className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm">
-                {lang}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Frontend */}
-        <div className="space-y-2">
-          <div className="flex items-center gap-2 text-gray-700">
-            <Globe className="w-5 h-5" />
-            <h2 className="text-lg font-semibold">Frontend Technologies</h2>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {jerico.technologies.frontEnd.js.concat(jerico.technologies.frontEnd.css).map((tech) => (
-              <span key={tech} className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm">
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Backend */}
-        <div className="space-y-2">
-          <div className="flex items-center gap-2 text-gray-700">
-            <Server className="w-5 h-5" />
-            <h2 className="text-lg font-semibold">Backend Technologies</h2>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {[...jerico.technologies.backEnd.js, ...jerico.technologies.backEnd.php].map((tech) => (
-              <span key={tech} className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm">
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Databases */}
-        <div className="space-y-2">
-          <div className="flex items-center gap-2 text-gray-700">
-            <Database className="w-5 h-5" />
-            <h2 className="text-lg font-semibold">Databases</h2>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {jerico.technologies.databases.map((db) => (
-              <span key={db} className="px-3 py-1 bg-yellow-100 text-yellow-700 rounded-full text-sm">
-                {db}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Tools */}
-        <div className="space-y-2">
-          <div className="flex items-center gap-2 text-gray-700">
-            <Tools className="w-5 h-5" />
-            <h2 className="text-lg font-semibold">Tools</h2>
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {jerico.technologies.tools.map((tool) => (
-              <span key={tool} className="px-3 py-1 bg-red-100 text-red-700 rounded-full text-sm">
-                {tool}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Fun Fact */}
-        <div className="mt-6 text-center">
-          <div className="flex items-center justify-center gap-2 text-gray-600">
-            <Coffee className="w-5 h-5" />
-            <p className="text-lg">{jerico.funFact}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
 };
+```
 
-export default DeveloperProfile;
+## Tech Stack 💻
+
+<div align="center">
+
+### Frontend
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+### Backend
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
+
+### Databases
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+</div>
+
+## GitHub Analytics ⚡
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jericodaag&show_icons=true&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jericodaag&layout=compact&theme=tokyonight" />
+</div>
+
+## Connect with Me 🤝
+<div align="center">
+  
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/DaagEco/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ecodaag/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jerico-daag)
+
+</div>
+
+## GitHub Streak 🔥
+<div align="center">
+  
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=jericodaag&theme=tokyonight)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=jericodaag&color=blue&style=for-the-badge" alt="Profile Views" />
+</div>
+
+<!-- Snake animation -->
+![Snake animation](https://github.com/jericodaag/jericodaag/blob/output/github-contribution-grid-snake.svg)
