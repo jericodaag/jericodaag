@@ -7,69 +7,100 @@
 </div>
 
 ## About Me 🎯
-<div style="background: linear-gradient(to bottom right, #1a1a1a, #2d2d2d); border-radius: 8px; padding: 24px; color: white; max-width: 800px; margin: 0 auto;">
-  <h2 style="color: #60A5FA; font-size: 24px; font-weight: bold; margin-bottom: 24px;">
-    <span style="display: inline-block; vertical-align: middle; margin-right: 8px;">👨‍💻</span>
-    About Me
-  </h2>
-  
-  <div style="margin-left: 16px;">
-    <p style="margin: 12px 0;">
-      <span style="color: #F687B3;">role:</span>
-      <span style="color: #4ADE80; margin-left: 8px;">"Full Stack Developer"</span>
-    </p>
-    
-    <p style="margin: 12px 0;">
-      <span style="color: #F687B3;">code:</span>
-      <span style="color: #4ADE80; margin-left: 8px;">["JavaScript", "PHP", "Python", "SQL", "HTML", "CSS"]</span>
-    </p>
-    
-    <div style="margin: 12px 0;">
-      <span style="color: #F687B3;">technologies:</span>
-      <div style="margin-left: 16px;">
-        <p style="margin: 8px 0;">
-          <span style="color: #FCD34D;">frontEnd:</span>
-          <div style="margin-left: 16px;">
-            <span style="color: #60A5FA;">js:</span>
-            <span style="color: #4ADE80;">"React.js"</span><br>
-            <span style="color: #60A5FA;">css:</span>
-            <span style="color: #4ADE80;">["Tailwind CSS", "Bootstrap"]</span>
+import { Code } from 'lucide-react';
+
+const AboutMeCard = () => {
+  return (
+    <div className="w-full max-w-2xl mx-auto bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg shadow-xl p-6 text-white">
+      <div className="flex items-center mb-6">
+        <Code className="w-6 h-6 mr-2 text-blue-400" />
+        <h2 className="text-2xl font-bold text-blue-400">About Me</h2>
+      </div>
+
+      <div className="space-y-4">
+        <div className="flex items-center">
+          <span className="text-pink-400 font-mono">role:</span>
+          <span className="ml-2 text-green-400">"Full Stack Developer"</span>
+        </div>
+
+        <div>
+          <span className="text-pink-400 font-mono">code:</span>
+          <div className="ml-4 flex flex-wrap gap-2 mt-2">
+            {["JavaScript", "PHP", "Python", "SQL", "HTML", "CSS"].map((tech) => (
+              <span key={tech} className="px-3 py-1 bg-blue-500/20 rounded-full text-blue-300 text-sm">
+                {tech}
+              </span>
+            ))}
           </div>
-        </p>
-        
-        <p style="margin: 8px 0;">
-          <span style="color: #FCD34D;">backEnd:</span>
-          <div style="margin-left: 16px;">
-            <span style="color: #60A5FA;">js:</span>
-            <span style="color: #4ADE80;">["Node.js", "Express.js"]</span><br>
-            <span style="color: #60A5FA;">php:</span>
-            <span style="color: #4ADE80;">"Laravel"</span>
+        </div>
+
+        <div>
+          <span className="text-pink-400 font-mono">technologies:</span>
+          <div className="ml-4 mt-2 space-y-3">
+            <div>
+              <span className="text-yellow-400 font-mono">frontEnd:</span>
+              <div className="ml-4 mt-1">
+                <div>
+                  <span className="text-blue-400 font-mono">js:</span>
+                  <span className="ml-2 text-green-400">"React.js"</span>
+                </div>
+                <div>
+                  <span className="text-blue-400 font-mono">css:</span>
+                  <span className="ml-2 text-green-400">"Tailwind CSS, Bootstrap"</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <span className="text-yellow-400 font-mono">backEnd:</span>
+              <div className="ml-4">
+                <div>
+                  <span className="text-blue-400 font-mono">js:</span>
+                  <span className="ml-2 text-green-400">"Node.js, Express.js"</span>
+                </div>
+                <div>
+                  <span className="text-blue-400 font-mono">php:</span>
+                  <span className="ml-2 text-green-400">"Laravel"</span>
+                </div>
+              </div>
+            </div>
+            <div>
+              <span className="text-yellow-400 font-mono">databases:</span>
+              <div className="ml-4 flex flex-wrap gap-2 mt-1">
+                {["MySQL", "MongoDB"].map((db) => (
+                  <span key={db} className="px-3 py-1 bg-purple-500/20 rounded-full text-purple-300 text-sm">
+                    {db}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div>
+              <span className="text-yellow-400 font-mono">tools:</span>
+              <div className="ml-4 flex flex-wrap gap-2 mt-1">
+                {["Git", "GitHub", "VS Code", "Postman"].map((tool) => (
+                  <span key={tool} className="px-3 py-1 bg-gray-500/20 rounded-full text-gray-300 text-sm">
+                    {tool}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
-        </p>
-        
-        <p style="margin: 8px 0;">
-          <span style="color: #FCD34D;">databases:</span>
-          <span style="color: #4ADE80; margin-left: 8px;">["MySQL", "MongoDB"]</span>
-        </p>
-        
-        <p style="margin: 8px 0;">
-          <span style="color: #FCD34D;">tools:</span>
-          <span style="color: #4ADE80; margin-left: 8px;">["Git", "GitHub", "VS Code", "Postman"]</span>
-        </p>
+        </div>
+
+        <div className="flex items-center">
+          <span className="text-pink-400 font-mono">currentFocus:</span>
+          <span className="ml-2 text-green-400">"Building scalable web applications"</span>
+        </div>
+
+        <div className="flex items-center">
+          <span className="text-pink-400 font-mono">funFact:</span>
+          <span className="ml-2 text-green-400">"I code better with coffee ☕"</span>
+        </div>
       </div>
     </div>
-    
-    <p style="margin: 12px 0;">
-      <span style="color: #F687B3;">currentFocus:</span>
-      <span style="color: #4ADE80; margin-left: 8px;">"Building scalable web applications"</span>
-    </p>
-    
-    <p style="margin: 12px 0;">
-      <span style="color: #F687B3;">funFact:</span>
-      <span style="color: #4ADE80; margin-left: 8px;">"I code better with coffee ☕"</span>
-    </p>
-  </div>
-</div>
+  );
+};
+
+export default AboutMeCard;
 
 ## Tech Stack 💻
 
