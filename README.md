@@ -7,26 +7,57 @@
 </div>
 
 ## About Me 🎯
-```javascript
-const jerico = {
-    role: "Full Stack Developer",
-    code: ["JavaScript", "PHP", "Python", "SQL", "HTML", "CSS"],
-    technologies: {
-        frontEnd: {
-            js: ["React.js"],
-            css: ["Tailwind CSS", "Bootstrap"]
-        },
-        backEnd: {
-            js: ["Node.js", "Express.js"],
-            php: ["Laravel"]
-        },
-        databases: ["MySQL", "MongoDB"],
-        tools: ["Git", "GitHub", "VS Code", "Postman"]
-    },
-    currentFocus: "Building scalable web applications",
-    funFact: "I code better with coffee ☕"
-};
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Laptop" width="25" height="25" /> About Me 
+
+<div align="left">
+<details open>
+<summary><b>See my developer card</b></summary>
+<br>
+
+```yaml
+role: Full Stack Developer 👨‍💻
+
+code: 
+  languages: |
+    🟡 JavaScript
+    🔵 PHP
+    🐍 Python
+    🎲 SQL
+    🌐 HTML
+    🎨 CSS
+
+technologies:
+  frontEnd:
+    js: |
+      ⚛️ React.js
+    css: |
+      🎭 Tailwind CSS
+      🅱️ Bootstrap
+      
+  backEnd:
+    js: |
+      📦 Node.js
+      🚂 Express.js
+    php: |
+      🔥 Laravel
+      
+  databases: |
+    🐬 MySQL
+    🍃 MongoDB
+    
+  tools: |
+    📚 Git
+    🐱 GitHub
+    💻 VS Code
+    📬 Postman
+
+currentFocus: "Building scalable web applications 🚀"
+
+funFact: "I code better with coffee ☕"
 ```
+
+</details>
+</div>
 
 ## Tech Stack 💻
 
