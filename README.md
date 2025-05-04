@@ -16,7 +16,7 @@ I'm a Frontend Developer who thrives on discipline, not shortcuts. Inspired by R
 
 ```javascript
 const jerico = {
-  role: "Full Stack Developer",
+  role: "Frontend Developer",
   location: "Angeles City, Philippines",
   currentFocus: "Building modern web applications with React and Node.js",
   passions: ["Clean code", "UI/UX", "Real-time applications", "Performance optimization"],
