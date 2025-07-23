@@ -1,6 +1,6 @@
 <div align="center">
   
-# Hi there! I'm Jerico Daag 👋
+# Hi! I'm Jerico Daag 👋
 
 I'm a Frontend Developer who thrives on discipline, not shortcuts. Inspired by Rock Lee's relentless work ethic and Nanami's structured mindset, I believe success is built through focus, consistency, and continuous growth. No gimmicks—just clean code, steady progress, and a deep commitment to learning.
 
